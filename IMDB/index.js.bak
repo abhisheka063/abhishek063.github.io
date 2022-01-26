@@ -32,7 +32,7 @@ async function fetchApi(name) {
 
     try {
         console.log(name, "name/id");
-        let response = await fetch('https://www.omdbapi.com/?s=' + name + '&apikey=31c2f8ed');
+        let response = await fetch('http://www.omdbapi.com/?s=' + name + '&apikey=31c2f8ed');
         let data = await response.json();
         //Calling display function and passing search result data
         display(data);
