@@ -17,7 +17,7 @@ renderList = (task) => {
 
         <input type="checkbox" id="${String(task.id)}" ${(task.completed) ? 'checked' : ''} name="list" class="checked"}>
         <label for="${String(task.id)}" class='label'>${task.title}</label>
-        <span ><img src="https://cdn-icons.flaticon.com/png/512/3405/premium/3405244.png?token=exp=1642592747~hmac=d4e0c8bba262d3f84c5e1189822e17bc" class="del-icon" id="${task.id}"></span>
+        <span ><img src="delete.png" class="del-icon" id="${task.id}"></span>
         <hr>
         `;
     listItem.append(li);
