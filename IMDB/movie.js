@@ -54,7 +54,7 @@ var movie = (function () {
     }
 
     //initialize page setting 1 sec timeout so that till that api can fetch details
-    setTimeout(display, 5000);
+    setTimeout(display, 4000);
 
     return {
         callMovie: getmovie
