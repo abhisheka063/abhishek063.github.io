@@ -1,4 +1,4 @@
-#Functional components
+# Functional components
 
  1.add task(task)
  
@@ -47,7 +47,7 @@ it is used in toggling task and deleting task.
 ##Note: As we are using Api -> Api will return id values in number so thats why i am converting id values to Number so that we can compare and manipulater it.
 and later on when same id is assigned to lists at that place we are again convertingthem to string because id="" only accept string.
 
-##Screenshot of Todo
+## Screenshot of Todo
 
 ![image](https://user-images.githubusercontent.com/40734291/151237644-965cb2c0-6468-43e8-a599-2c433381c726.png)
 
