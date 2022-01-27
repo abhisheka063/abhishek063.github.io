@@ -1,6 +1,6 @@
-Functional Component
+# Functional Component
 
-#index.js
+# index.js
 
 ->initializeApp()--initialize page
 
@@ -10,7 +10,7 @@ Functional Component
 
 ->display()--recevie data and render list on home page
 
-#favourite.js
+# favourite.js
 
 ->initializeFav()--initialize page and some vars
 
@@ -24,7 +24,7 @@ Functional Component
 
 ->deleteFav()--called when user want to delete favorite movie from list
 
-#movie.js
+# movie.js
 
 ->getmovie()--called by index.js handleClick when user clicks on list/movie to see details/recieve movie id and call 
 getbyid() to get promises later store that movie details in local storage.
